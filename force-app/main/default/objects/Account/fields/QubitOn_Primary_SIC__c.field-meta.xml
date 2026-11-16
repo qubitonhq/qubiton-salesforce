@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_Primary_SIC__c</fullName>
+    <label>QubitOn Primary SIC</label>
+    <inlineHelpText>The company's primary SIC code and description, filled only when QubitOn marks a code primary with High or Medium confidence. Blank otherwise; see QubitOn SIC Codes for every ranked code.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_Certification_Agencies__c</fullName>
+    <label>QubitOn Certification Agencies</label>
+    <inlineHelpText>Agencies that issued the active certifications, in the same order, e.g. "WBENC; SBA". Blank when the source does not name one.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>

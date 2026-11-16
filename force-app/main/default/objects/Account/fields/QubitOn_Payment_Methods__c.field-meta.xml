@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_Payment_Methods__c</fullName>
+    <label>QubitOn Payment Methods</label>
+    <inlineHelpText>Payment methods the company currently accepts, from the data lookup, e.g. CHECK; EFT_ACH. Needs the payment methods option on your QubitOn plan; blank on a Low match.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>

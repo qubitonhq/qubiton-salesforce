@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_Risk_Flags__c</fullName>
+    <label>QubitOn Risk Flags</label>
+    <inlineHelpText>Risk flags currently raised on the company, from the data lookup. Needs the risk flags option on your QubitOn plan; blank on a Low match or when none is raised.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>

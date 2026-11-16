@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_Address_Not_Matched__c</fullName>
+    <label>QubitOn Address Not Matched</label>
+    <inlineHelpText>Checked when the data lookup found the company name but none of its addresses matched the billing address, so it returned the closest company with Low confidence. Firmographics are left blank then.</inlineHelpText>
+    <defaultValue>false</defaultValue>
+    <type>Checkbox</type>
+</CustomField>

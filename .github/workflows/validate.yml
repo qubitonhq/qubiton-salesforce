@@ -1,0 +1,12 @@
+name: validate
+on: [push, pull_request]
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install -g @salesforce/cli
+      - name: Check source converts to deployable metadata
+        run: sf project convert source --root-dir force-app --output-dir /tmp/mdapi

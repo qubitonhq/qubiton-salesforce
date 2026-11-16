@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Data_Lookup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>On: enrich Accounts with the QubitOn data lookup (enterprise plans), falling back to business classification and certification on a 403 or failure; 3 Accounts per job. Off (default): business classification and certification only; 4 Accounts per job.</description>
+    <label>Use Data Lookup</label>
+    <type>Checkbox</type>
+</CustomField>

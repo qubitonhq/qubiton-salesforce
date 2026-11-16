@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_SIC_Codes__c</fullName>
+    <label>QubitOn SIC Codes</label>
+    <inlineHelpText>Up to 5 codes in QubitOn's rank order. (P, High) marks the primary code, (S, Low) a secondary one, with the confidence that it is the primary code. Cut on whole codes at 255 characters.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>

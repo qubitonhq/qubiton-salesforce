@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QubitOn_Diversity__c</fullName>
+    <label>QubitOn Ownership and Size</label>
+    <inlineHelpText>Minority-, women- and veteran-owned, small business and nonprofit flags from the business data source.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>
